@@ -6,11 +6,18 @@ gem 'rails', '3.2.3'
 gem 'databasedotcom'
 gem 'databasedotcom-rails'
 gem 'heroku'
+gem 'guard-rspec'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'rb-fchange'
+  gem 'rb-notifu'
+  gem 'win32console'
+  gem 'guard-spork'
+  gem 'spork'
+
 end
 group :production do
   gem 'pg'
