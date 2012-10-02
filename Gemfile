@@ -4,6 +4,7 @@ ruby '1.9.3'
 gem 'rails', '3.2.3'
 
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
 gem 'databasedotcom'
 gem 'databasedotcom-rails'
 gem 'heroku'
@@ -23,6 +24,8 @@ end
 group :production do
   gem 'pg'
 end
+
+gem 'annotate', group: :development
 
 #alternative to webrick in production
 group :production do
